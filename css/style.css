@@ -185,3 +185,168 @@ button {
   align-items: center;
   margin: 15px 0 0 0;
 }
+
+
+        /* Services Section */
+        .services {
+          padding: 2rem 1rem;
+          background-color: var(--white);
+          color: var(--text-color);
+          text-align: center;
+      }
+
+      .services h2 {
+          margin-bottom: 2rem;
+      }
+
+      .service-cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 2rem;
+      }
+
+      .service-card {
+          background-color: var(--white);
+          border: 1px solid var(--gray);
+          border-radius: 8px;
+          padding: 1.5rem;
+          width: 100%;
+          max-width: 300px;
+          text-align: left;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+      }
+
+      .service-card:hover {
+          transform: translateY(-10px);
+      }
+
+      .service-card img {
+          border-radius: 8px;
+          margin-bottom: 1rem;
+      }
+
+      /* Instructors Section */
+      .instructors {
+          padding: 2rem 1rem;
+          background-color: var(--light-gray);
+          color: var(--text-color);
+          text-align: center;
+      }
+
+      .instructors h2 {
+          margin-bottom: 2rem;
+      }
+
+      .instructor-cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 2rem;
+      }
+
+      .instructor-card {
+          background-color: var(--white);
+          border: 1px solid var(--gray);
+          border-radius: 8px;
+          padding: 1.5rem;
+          width: 100%;
+          max-width: 300px;
+          text-align: left;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+      }
+
+      .instructor-card:hover {
+          transform: translateY(-10px);
+      }
+
+      .instructor-card img {
+          border-radius: 8px;
+          margin-bottom: 1rem;
+      }
+
+      /* Events Section */
+      .events {
+          padding: 2rem 1rem;
+          background-color: var(--white);
+          color: var(--text-color);
+          text-align: center;
+      }
+
+      .events h2 {
+          margin-bottom: 2rem;
+      }
+
+      .event-cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 2rem;
+      }
+
+      .event-card {
+          background-color: var(--white);
+          border: 1px solid var(--gray);
+          border-radius: 8px;
+          padding: 1.5rem;
+          width: 100%;
+          max-width: 300px;
+          text-align: left;
+      }
+      
+/* Dance schedule */
+.dance-schedule {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--white);
+}
+
+.dance-schedule h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: var(--black);
+}
+
+.table-wrapper {
+  overflow-x: auto;  /* Enables horizontal scrolling */
+}
+
+.dance-schedule table {
+  width: 100%;
+  min-width: 600px;  /* Ensures table remains wide enough for content */
+  border-collapse: collapse;
+}
+
+.dance-schedule th, .dance-schedule td {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid var(--gray);
+  font-size: 1rem;
+}
+
+.dance-schedule th {
+  background-color: var(--light-gray);
+  color: var(--black);
+  font-weight: bold;
+}
+
+.dance-schedule td {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Make sure table is scrollable on smaller screens */
+@media (max-width: 768px) {
+  .table-wrapper {
+    /* overflow-x: scroll; */
+  }
+  
+  .dance-schedule table {
+    width: 100%;
+    min-width: 421px;
+  }
+}
