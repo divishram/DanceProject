@@ -206,9 +206,6 @@ button {
   background-color: #ff4500; /* Darker tomato color */
 }
 
-/* todo cover image overlapping menu */
-/* todo hero image, losing quality when smaller */
-
 .testimonials-text {
   display: flex;
   justify-content: center;
@@ -371,9 +368,6 @@ button {
 
 /* Make sure table is scrollable on smaller screens */
 @media (max-width: 768px) {
-  .table-wrapper {
-    /* overflow-x: scroll; */
-  }
   
   .dance-schedule table {
     width: 100%;
