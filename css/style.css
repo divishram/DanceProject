@@ -46,6 +46,36 @@ img {
   z-index: 10;
 }
 
+/* Logo-like styling for the "divish dance" text */
+.Nav_Wrapper a {
+  font-family: 'Playfair Display', serif; /* Consider using a logo-like font */
+  font-size: 1.3rem; /* Increase size to make it prominent */
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; /* Adds a bit of spacing for elegance */
+  position: relative;
+  color: var(--white);
+}
+
+/* Optional: Add a subtle shadow for depth */
+.Nav_Wrapper a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: var(--accent-color); /* A contrasting color for effect */
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.Nav_Wrapper a:hover::after {
+  transform: scaleX(1); /* Expands the underline on hover */
+}
+
+
 ul {
   list-style: none;
 }
@@ -300,7 +330,7 @@ button {
 .dance-schedule {
   max-width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.3rem;
   background-color: var(--white);
 }
 
