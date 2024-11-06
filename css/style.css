@@ -46,19 +46,17 @@ img {
   z-index: 10;
 }
 
-/* Logo-like styling for the "divish dance" text */
 .Nav_Wrapper a {
-  font-family: 'Playfair Display', serif; /* Consider using a logo-like font */
-  font-size: 1.3rem; /* Increase size to make it prominent */
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.1em; /* Adds a bit of spacing for elegance */
+  letter-spacing: 0.1em;
   position: relative;
   color: var(--white);
 }
 
-/* Optional: Add a subtle shadow for depth */
 .Nav_Wrapper a::after {
   content: '';
   position: absolute;
@@ -213,115 +211,115 @@ button {
 }
 
 
-        /* Services Section */
-        .services {
-          padding: 2rem 1rem;
-          background-color: var(--white);
-          color: var(--text-color);
-          text-align: center;
-      }
+/* Services Section */
+.services {
+  padding: 2rem 1rem;
+  background-color: var(--white);
+  color: var(--text-color);
+  text-align: center;
+}
 
-      .services h2 {
-          margin-bottom: 2rem;
-      }
+.services h2 {
+  margin-bottom: 2rem;
+}
 
-      .service-cards {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 2rem;
-      }
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
 
-      .service-card {
-          background-color: var(--white);
-          border: 1px solid var(--gray);
-          border-radius: 8px;
-          padding: 1.5rem;
-          width: 100%;
-          max-width: 300px;
-          text-align: left;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          transition: transform 0.3s ease;
-      }
+.service-card {
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
 
-      .service-card:hover {
-          transform: translateY(-10px);
-      }
+.service-card:hover {
+  transform: translateY(-10px);
+}
 
-      .service-card img {
-          border-radius: 8px;
-          margin-bottom: 1rem;
-      }
+.service-card img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
 
-      /* Instructors Section */
-      .instructors {
-          padding: 2rem 1rem;
-          background-color: var(--light-gray);
-          color: var(--text-color);
-          text-align: center;
-      }
+/* Instructors Section */
+.instructors {
+  padding: 2rem 1rem;
+  background-color: var(--light-gray);
+  color: var(--text-color);
+  text-align: center;
+}
 
-      .instructors h2 {
-          margin-bottom: 2rem;
-      }
+.instructors h2 {
+  margin-bottom: 2rem;
+}
 
-      .instructor-cards {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 2rem;
-      }
+.instructor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
 
-      .instructor-card {
-          background-color: var(--white);
-          border: 1px solid var(--gray);
-          border-radius: 8px;
-          padding: 1.5rem;
-          width: 100%;
-          max-width: 300px;
-          text-align: left;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          transition: transform 0.3s ease;
-      }
+.instructor-card {
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
 
-      .instructor-card:hover {
-          transform: translateY(-10px);
-      }
+.instructor-card:hover {
+  transform: translateY(-10px);
+}
 
-      .instructor-card img {
-          border-radius: 8px;
-          margin-bottom: 1rem;
-      }
+.instructor-card img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
 
-      /* Events Section */
-      .events {
-          padding: 2rem 1rem;
-          background-color: var(--white);
-          color: var(--text-color);
-          text-align: center;
-      }
+/* Events Section */
+.events {
+  padding: 2rem 1rem;
+  background-color: var(--white);
+  color: var(--text-color);
+  text-align: center;
+}
 
-      .events h2 {
-          margin-bottom: 2rem;
-      }
+.events h2 {
+  margin-bottom: 2rem;
+}
 
-      .event-cards {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          gap: 2rem;
-      }
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
 
-      .event-card {
-          background-color: var(--white);
-          border: 1px solid var(--gray);
-          border-radius: 8px;
-          padding: 1.5rem;
-          width: 100%;
-          max-width: 300px;
-          text-align: left;
-      }
-      
+.event-card {
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  text-align: left;
+}
+
 /* Dance schedule */
 .dance-schedule {
   max-width: 100%;
@@ -371,5 +369,21 @@ button {
   .dance-schedule table {
     width: 100%;
     min-width: 421px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-Intro {
+    height: 820px;
+    background-position-y: 70%;
+  }
+
+  .cta-button {
+    margin-bottom: 40px;
+    font-size: 2.188em;
+  }
+
+  .title {
+    font-size: 3em;
   }
 }
