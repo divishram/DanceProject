@@ -155,8 +155,7 @@ a {
 
 /* After Nav ends, Home Intro */
 .home-Intro {
-  background-image: url("../images/dance-sunset.webp");
-  /* background-position: 50%; */
+  background-image: url("../images/dance-sunset_hd.webp");
   background-position-y: 80%;
   background-size:cover;
   background-repeat: no-repeat;
